@@ -27,14 +27,13 @@
 # 0 <= celsius <= 1000
 
 
-from typing import List  # Ensure List is imported correctly
+from typing import List 
 
 class Solution:
     def convertTemperature(self, celsius: float) -> List[float]:
-        kelvin = celsius + 273.15  # Variable names should be lowercase
+        kelvin = celsius + 273.15  
         fahrenheit = celsius * 1.80 + 32.00
-        return [round(kelvin, 5), round(fahrenheit, 5)]  # Use corrected variable names
+        return [round(kelvin, 5), round(fahrenheit, 5)]  
 
-# Example usage
 solution = Solution()
 print(solution.convertTemperature(36.5))
