@@ -2,7 +2,6 @@ class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1 = set(nums1)
         nums2 = set(nums2)
-        intersection = nums1 & nums2
-        intersection = list(intersection)
+        intersection = list(nums1 & nums2)
         return intersection
         
