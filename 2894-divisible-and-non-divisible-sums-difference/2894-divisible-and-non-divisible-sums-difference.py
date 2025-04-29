@@ -7,7 +7,5 @@ class Solution:
                 num1.append(i)
             else:
                 num2.append(i)
-        s1 = sum(num1)
-        s2 = sum(num2)
-        return s1 - s2
-        
+        return sum(num1) - sum(num2)
+       
